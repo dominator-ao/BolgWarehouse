@@ -283,6 +283,7 @@ about:
   icons:
     - { class: "iconfont icon-github-fill", link: "https://github.com/dominator-ao" }
     - { class: "iconfont icon-gitee-fill", link: "https://gitee.com/tb-my-warehouse" }
+    - { class: "iconfont icon-wechat-fill", link: "https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU4ODc3NTY2MA==&uin=&key=&devicetype=UnifiedPCWindows&version=f2541923&lang=zh_CN&a8scene=7" }
 
 
 #---------------------------
