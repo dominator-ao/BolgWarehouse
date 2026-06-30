@@ -11,8 +11,8 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://tb-my-warehouse.github.io/blog
-root: /blog/
+url: https://dominator-ao.github.io/BolgWarhouse
+root: /BolgWarhouse/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -100,6 +100,6 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment.html
 deploy:
   type: git
-  repo: https://github.com/tb-my-warehouse/blog.git
+  repo: https://github.com/dominator-ao/BolgWarhouse.git
   branch: gh-pages
   message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
