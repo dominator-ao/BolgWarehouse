@@ -1,0 +1,74 @@
+# Fluid 主题配置
+# 文档: https://fluid.ist/docs/guide/
+
+# ---------- 基础配置 ----------
+blog_title: Dominator's Blog
+
+# 导航栏
+navbar:
+  blog_title: "Dominator's Blog"
+  menu:
+    - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
+    - { key: "archives", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    - { key: "tags", link: "/tags/", icon: "iconfont icon-tags-fill" }
+    - { key: "about", link: "/about/", icon: "iconfont icon-user-fill" }
+
+# 首页封面图
+index_banner_img: /img/default.png
+index_banner_img_height: 60
+index_banner_mask_color: rgba(0, 0, 0, 0.3)
+
+# 文章页封面图（随机）
+post_banner_img:
+  - /img/default.png
+
+# 关于页
+about:
+  enable: true
+  banner_img: /img/default.png
+  banner_img_height: 60
+  banner_mask_color: rgba(0, 0, 0, 0.3)
+  title: "关于我"
+  content: >
+    <p>欢迎来到 Dominator 的博客</p>
+
+# ---------- 文章配置 ----------
+post:
+  banner_img: /img/default.png
+  banner_img_height: 60
+  banner_mask_color: rgba(0, 0, 0, 0.3)
+  meta:
+    author:
+      enable: true
+    date:
+      enable: true
+    wordcount:
+      enable: true
+    min2read:
+      enable: true
+    views:
+      enable: false
+  copyright:
+    enable: true
+    content: "本博客所有文章除特别声明外，均采用 CC BY-NC-SA 4.0 许可协议。转载请注明出处！"
+
+# ---------- 归档页 ----------
+archive:
+  banner_img: /img/default.png
+  banner_img_height: 60
+
+# ---------- 标签页 ----------
+tag:
+  banner_img: /img/default.png
+  banner_img_height: 60
+
+# ---------- 代码块 ----------
+code:
+  copy_btn: true
+
+# ---------- 暗色模式 ----------
+color_schema: auto
+
+# ---------- 搜索 ----------
+search:
+  enable: true
