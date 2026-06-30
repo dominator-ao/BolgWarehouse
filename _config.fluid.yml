@@ -106,7 +106,7 @@ web_analytics:
 lazyload:
   enable: true
   loading_img: /img/loading.gif
-  onlypost: false
+  onlypost: true
   offset_factor: 2
 
 # 图标库
